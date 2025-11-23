@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div className='flex justify-between'>
         <Sidebar/>
-        {/* <CoursePanel/> */}
+        <CoursePanel/>
         <Rightbar/>
     </div>
   )

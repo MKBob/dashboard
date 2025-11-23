@@ -4,7 +4,6 @@ import CourseFeedCards from './ui/CourseFeedCards'
 const CourseFeeds = () => {
   return (
     <div>
-        
         <CourseFeedCards/>
     </div>
   )

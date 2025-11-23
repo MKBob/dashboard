@@ -9,6 +9,7 @@ import setting from "./setting.svg"
 import bell from "./bell.svg"
 import trophy from "./trophy.svg"
 import threedot from "./threedot.svg"
+import tcs from "./tcs.png"
 export const homeIcon = home;
 export const courseIcon = course;
 export const messageIcon = message;
@@ -20,3 +21,4 @@ export const settingIcon = setting;
 export const bellIcon = bell
 export const trophyIcon = trophy
 export const threeDotIcon = threedot
+export const tcsIcon = tcs
