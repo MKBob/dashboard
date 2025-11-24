@@ -4,3 +4,23 @@ body{
     font-family: "Noto Sans", sans-serif;
     background-color: #EDEDED;
 }
+
+/* Global thin black scrollbar */
+/* Firefox */
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #000000 transparent;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+*::-webkit-scrollbar-track{
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    border-radius: 9999px;
+}

@@ -1,12 +1,20 @@
 import React from 'react'
 import RightBarControl from './ui/RightBarControl'
-import RankContainer from './RankContainer'
+import RankList from './ui/RankList'
+import HiringList from './ui/HiringList'
 
 const Rightbar = () => {
   return (
-    <div className='fixed right-0 py-4 mr-6 flex flex-col gap-7'>
-     <RightBarControl/>
-     <RankContainer/>
+    <div className='h-screen py-4  mr-6  w-16 md:w-[18rem] shrink-0 flex flex-col gap-7 overflow-hidden'>
+     <div className='shrink-0'>
+       <RightBarControl/>
+     </div>
+      <div className=' min-h-0 overflow-hidden rounded-xl'>
+       <RankList/>
+     </div>
+      <div className=' min-h-0 overflow-hidden rounded-xl'>
+       <HiringList/>
+     </div>
     </div>
   )
 }
