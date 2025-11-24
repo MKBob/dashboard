@@ -3,7 +3,8 @@ import { MagnifyingGlass, Faders } from "phosphor-react";
 
 const Searchbar = () => {
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center items-center 
+                    sticky top-0 z-50 py-3">
       <div className="flex items-center gap-3 w-full">
         <div className="relative w-full">
           <MagnifyingGlass
@@ -19,7 +20,8 @@ const Searchbar = () => {
                        outline-none text-base bg-white"
           />
         </div>
-        <div className="rounded-2xl bg-black p-3">
+
+        <div className="rounded-2xl bg-black p-3 cursor-pointer">
           <Faders size={30} className="text-white" />
         </div>
       </div>
