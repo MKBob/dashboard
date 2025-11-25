@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import java from "../../assets/java.png"
 import phytonIcon from "../../assets/phyton.png"
 import cplusIcon from "../../assets/cplus.png"
@@ -10,10 +10,22 @@ const CourseFeedCards = () => {
     { id: 1, image: java, name: "Java" },
     { id: 2, image: phytonIcon, name: "Python" },
     { id: 3, image: cplusIcon, name: "C++" },
-    { id: 1, image: java, name: "Java" },
-    { id: 2, image: phytonIcon, name: "Python" },
-    { id: 3, image: cplusIcon, name: "C++" },
-  ]
+    { id: 4, image: cplusIcon, name: "Kotlin" },
+    { id: 5, image: cplusIcon, name: "React" },
+    { id: 6, image: cplusIcon, name: "Node.js" }, 
+    { id: 7, image: cplusIcon, name: "MongoDB" },
+    { id: 8, image: cplusIcon, name: "MySQL" },
+    { id: 9, image: cplusIcon, name: "PostgreSQL" },
+    { id: 10, image: cplusIcon, name: "SQLite" },
+    { id: 11, image: cplusIcon, name: "Redis" },
+    { id: 12, image: cplusIcon, name: "Elasticsearch" },
+    { id: 13, image: cplusIcon, name: "Kafka" },
+
+  ];
+
+  const [showAll, setShowAll] = useState(false)
+
+  const visibleCourses = showAll ? courses : courses.slice(0, 3)
 
   return (
     <div className="h-full overflow-y-auto">

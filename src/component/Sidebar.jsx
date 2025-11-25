@@ -31,7 +31,7 @@ const Sidebar = () => {
 
     ]
     return (
-        <div className='h-screen py-4 md:py-8 px-4 md:px-10 w-16 md:w-[18rem] shrink-0 flex flex-col justify-between bg-white'>
+        <div className='h-screen py-4 md:py-8 px-4 md:px-10 w-16 md:w-[18rem] shrink-0 flex flex-col justify-between bg-white sticky top-0'>
             <div className='flex flex-col justify-center'>
                 <img src={logo} alt="logo" className='w-8 md:w-32 mx-auto hidden md:block' />
                 <hr className='my-5 hidden md:block' />

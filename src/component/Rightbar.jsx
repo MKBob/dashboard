@@ -5,7 +5,7 @@ import HiringList from './ui/HiringList'
 
 const Rightbar = () => {
   return (
-    <div className='h-screen py-4  mr-6  w-16 md:w-[18rem] shrink-0 flex flex-col gap-7 overflow-hidden'>
+    <div className='h-screen py-4  mr-6  w-16 md:w-[18rem] shrink-0 flex flex-col gap-7 overflow-hidden  top-0'>
      <div className='shrink-0'>
        <RightBarControl/>
      </div>

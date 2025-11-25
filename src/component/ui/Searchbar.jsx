@@ -10,8 +10,7 @@ const Searchbar = () => {
           <MagnifyingGlass
             className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
             size={20}
-          />
-
+          /> 
           <input
             type="text"
             placeholder="Search..."
@@ -20,7 +19,6 @@ const Searchbar = () => {
                        outline-none text-base bg-white"
           />
         </div>
-
         <div className="rounded-2xl bg-black p-3 cursor-pointer">
           <Faders size={30} className="text-white" />
         </div>
